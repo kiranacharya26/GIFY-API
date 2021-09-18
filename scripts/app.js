@@ -5,7 +5,7 @@ const closeButton = document.querySelector('.show')
 
 const updateUI = (data) => {
   const gifData = data.gifData
-  console.log(gifData)
+
   let html = ''
 
   gifData.data.map((query) => {
