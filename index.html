@@ -8,11 +8,20 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <form class="container">
+    <div class="main-container">
+      <img src="./images/bgimg.jpg" alt="" srcset="" />
+      <div class="modal"></div>
+    </div>
+    <div>
+      <span
+        ><input type="text" placeholder="Hello" />
+        <img src="" class="gif-dom" alt="loading"
+      /></span>
+      <input type="button" class="show" value="GIF's" />
+    </div>
+    <form class="form-container">
       <input type="text" class="api-input" name="inputKey" />
-      <div>
-        <img src="" class="gif-dom" alt="" />
-      </div>
+
       <div class="api-res-cont"></div>
     </form>
     <script src="./scripts/gifyAPI.js"></script>
