@@ -25,14 +25,14 @@ body {
   position: absolute;
   border: 1px solid black;
   top: 3rem;
-  left: 23%;
+  left: 33.5%;
   width: 29rem;
   height: 20rem;
 }
 span input {
   position: absolute;
   top: 3.5rem;
-  left: 12.5rem;
+  left: 30rem;
   width: 28.5rem;
   height: 16rem;
   z-index: 1;
@@ -40,7 +40,7 @@ span input {
 .show {
   position: absolute;
   top: 20rem;
-  left: 14rem;
+  left: 31.5rem;
   width: 10rem;
   height: 2rem;
   border-radius: 20px;
@@ -88,7 +88,7 @@ span input {
 .gif-dom {
   position: absolute;
   top: 7rem;
-  left: 29rem;
+  left: 48rem;
   background-color: blue;
   width: 10rem;
   height: 10rem;
