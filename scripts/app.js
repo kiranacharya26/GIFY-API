@@ -1,14 +1,14 @@
 const container = document.querySelector('.container')
 const collectGIF = document.querySelector('.api-res-cont')
-const test = document.querySelector('.test')
+// const gifDom = document.querySelector('.gif-dom')
 
 const updateUI = (data) => {
   const gifData = data.gifData
   let html = ''
-  console.log(gifData)
+
   gifData.data.map((query) => {
     html += `
-      <img class="testing" src=${query.images.original.url}  />
+      <img class="set-image" src=${query.images.original.url}  />
     `
   })
   collectGIF.innerHTML = html
@@ -28,7 +28,6 @@ container.addEventListener('submit', (e) => {
     .then((data) => updateUI(data))
     .catch((err) => console.log(err))
 })
-
 collectGIF.addEventListener('click', (e) => {
-  console.log(e.target)
+  document.querySelector('.gif-dom').setAttribute('src', e.target.src)
 })
