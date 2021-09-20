@@ -89,7 +89,8 @@ span input {
   position: absolute;
   top: 7rem;
   left: 48rem;
-  background-color: blue;
+  background-color: rgb(154, 154, 228);
+  color: white;
   width: 10rem;
   height: 10rem;
   z-index: 1;
